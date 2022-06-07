@@ -41,6 +41,9 @@ if response.status_code == 200:
    
 if temperature > 55:
     print('ok')
+
+ if pressure < 1:
+    print('ok')
    
 #    print(f"{CITY:-^35}")
 #    print(f"City ID: {data['id']}")   
