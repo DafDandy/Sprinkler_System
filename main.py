@@ -44,7 +44,8 @@ if temperature > 55:
 
  if pressure < 1:
     print('ok')
-   
+
+
 #    print(f"{CITY:-^35}")
 #    print(f"City ID: {data['id']}")   
 #    print(f"Temperature: {temperature}")
