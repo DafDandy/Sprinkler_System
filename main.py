@@ -46,14 +46,14 @@ if temperature > 55:
     print('ok')
 
 
-#    print(f"{CITY:-^35}")
-#    print(f"City ID: {data['id']}")   
-#    print(f"Temperature: {temperature}")
-#    print(f"Feel Like: {temp_feel_like}")    
-#    print(f"Humidity: {humidity}")
-#    print(f"Pressure: {pressure}")
-#    print(f"Weather Report: {weather_report[0]['description']}")
-#    print(f"Wind Speed: {wind_report['speed']}")
-# else:
-#    # showing the error message
-#    print("Error in the HTTP request")
+   print(f"{CITY:-^35}")
+   print(f"City ID: {data['id']}")
+   print(f"Temperature: {temperature}")
+   print(f"Feel Like: {temp_feel_like}")
+   print(f"Humidity: {humidity}")
+   print(f"Pressure: {pressure}")
+   print(f"Weather Report: {weather_report[0]['description']}")
+   print(f"Wind Speed: {wind_report['speed']}")
+else:
+   # showing the error message
+   print("Error in the HTTP request")
