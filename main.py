@@ -5,7 +5,7 @@ import time
 def weather_api():
     BASE_URL = "https://api.openweathermap.org/data/2.5/weather?"
     CITY = "Ferndale"
-    API_KEY = '5b9a9ee80ff58a71a11b6e95ca407c07'
+    API_KEY = ''
     URL = BASE_URL + "q=" + CITY + "&appid=" + API_KEY
     response = requests.get(URL)
     if response.status_code == 200:
